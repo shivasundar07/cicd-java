@@ -3,4 +3,4 @@ From tomcat:8-jre8
 
 # Maintainer 
 MAINTAINER "shiva" 
-COPY ./cicd-for-webapp.war /usr/local/tomcat/webapps
+COPY ./target/cicd-for-webapp.war /usr/local/tomcat/webapps
